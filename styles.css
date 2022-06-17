@@ -1,5 +1,5 @@
 body{
-    background-color: #FFFBF7;
+    background-color: #FFFF;
 }
 
 h1{
@@ -15,5 +15,60 @@ p{
 
 button{
     color: #FFFBF7;
+    background-color: #67b54b;
+    border-radius: 5px;
+    margin: 12px 14px 12px 14px;
+    border: none;
+}
+
+.header{
+    margin: 40px 20px 0; /*top left&right down*/
+    font-size: 0;
+
+    font-family: sans-serif;
+}
+
+li{
+    display: inline;
+    margin: 0 25px;
+}
+
+.header > *{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 15%;
+    display: inline;
+}
+
+.navbar{
+    width: 70%;
+    height: 45px;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 0 25px 0;
+}
+
+.actions{
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px 0;
+    color: #67b54b;
+}
+
+.actions > button{
+    color: #FFFBF7;
     background-color: #025157;
+    border-radius: 5px;
+    margin: 12px 14px 12px 14px;
+    border: none;
 }
